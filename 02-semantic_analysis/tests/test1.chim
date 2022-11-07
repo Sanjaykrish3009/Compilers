@@ -1,0 +1,36 @@
+int x=3,y=4,i;
+
+double z,s,s2;
+
+element S=(11,23,2.0),Cl=(17,35.5,-1.0);  ## element declaration
+molecule NaCl=[Cl:1,Na:1];                ## molecule declaration
+element C=(6,12,0.0);
+
+if(Cl.atm_wt==30.0)                          ## if-condition
+{
+   y=Cl.atm_no+x;
+}
+
+s2=molar_mass(NaCl);
+
+if(s2==68.5)
+{
+  y=2*Cl.charge;
+}
+#*
+for(i=2;i<x;i++)
+{
+  x=x+2;
+}
+*#
+
+x=fun(x);
+
+ret ;
+
+func int fun(int a)
+{
+  int b=2;
+
+  ret b;
+}

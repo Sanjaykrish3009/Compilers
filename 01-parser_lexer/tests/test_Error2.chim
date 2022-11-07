@@ -1,0 +1,14 @@
+## Shows error if multiline comments is not terminated
+
+## ## - Single line comments
+## #*   *# - Multiline comments
+
+func int main()
+{
+  element O=(8,15.990,-2);
+  molecule O2=[O:2]
+  #*Defined an element
+    Defined a molecule
+}
+
+##shows error-"unterminated comment" at line no 10

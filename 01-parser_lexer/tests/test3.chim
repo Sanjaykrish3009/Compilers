@@ -1,0 +1,12 @@
+##Test Case3:While Loop
+
+func int main()
+{
+  int a=0;
+  int b=23;
+  while(a<b)
+  {
+    a++;
+  }
+  ret a;
+}

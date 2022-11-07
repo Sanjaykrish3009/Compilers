@@ -1,0 +1,13 @@
+##Test Case1:Datatypes Declaration
+
+func int main()
+{
+  int iden = 3;
+  int y = 7;
+  int x=y+2;
+  string s="CHIMICO";
+  element Cl=(17,35.457,-1);
+  molecule Cl2=[Cl:2];
+  
+  write(x);
+}

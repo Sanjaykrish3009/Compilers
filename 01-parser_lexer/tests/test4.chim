@@ -1,0 +1,12 @@
+##Test Case4:for loop
+
+func void main()
+{
+  element O=(8,15.990,-2);
+  element H=(1,1.007,+1);
+  molecule H2O=[H:2,O:1];
+  for(int i=0;i>O.charge;i--)
+  {
+    write("%d is greater than charge of element %s in molecule %s", i,name(O),chem_name(H2O));
+  }
+}

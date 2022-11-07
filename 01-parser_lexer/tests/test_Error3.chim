@@ -1,0 +1,13 @@
+##shows error if any string is not ended
+
+func void main()
+{
+  molecule Cl2=[Cl:2];
+ 
+  
+  write("The \"name\" of the given molecule is \n");
+  string mole_name=chem_name(Cl2);
+ 
+}
+
+##shows error at line no 6: "unterminated string"

@@ -1,0 +1,12 @@
+##Test Case5:Using some built-in functions
+
+func void main()
+{
+
+  element C = (6,12,0);
+  element H = (1,1,+1);
+  element O = (8,16,-2);
+  molecule C6H12O6 = [C:6,H:12,O:6];
+  write("The empirical formula for the given molecule is %s",emp_for(C6H12O6));
+  write("The molar mass of the given molecule is %d",molar_mass(C6H12O6));
+}

@@ -1,0 +1,18 @@
+## Shows error for invalid characters
+
+func void main()
+{
+  element H=(1,1.007,0);
+  element S;
+  write("Give characteristics of the element:");
+  read(&S.atm_wt);
+  if(S.atm_wt==H.atm_wt)
+  {
+    write("The given element is Hydrogen");
+  }
+  else
+    write("The given element is not Hydrogen");
+}
+
+
+#*& character is not defined in Chimico, hence flex will show error at those respective line numbers*#
