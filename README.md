@@ -1,6 +1,4 @@
 
-### Special thanks to [Uppala Sehouriey](https://github.com/Sehouriey) and [Ambati Sanjay Krishna](https://github.com/Sanjaykrish3009) for making this possible.
-
 # Chimico
 
 Chimico is a language predominantly built for chemists. It is built to assist
@@ -29,12 +27,3 @@ Commands to run the execuatble on any test file(should be present in 'tests' fol
 • $ ./exec ./tests/<test_filename.chim>  (produces out.asm assembly code file)  
 • $ java -jar Mars4_5.jar out.asm (output is produced in the terminal)  
 
-####  Team Members
-
-• [Narayana Sreehitha Reddy](https://github.com/sreehitha1707)  
-• [Uppala Sehouriey](https://github.com/Sehouriey)   
-• [Ambati Sanjay Krishna](https://github.com/Sanjaykrish3009)  
-• [Malla Sri Hari](https://github.com/srihari39)  
-• [Langaru Likitha](https://github.com/Likitha00)  
-• [G Venkata Surya Sai](https://github.com/G-Venkata-Surya-Sai)  
-• [Sagiraju Harshitha](https://github.com/Harshitha-sagiraju)  
